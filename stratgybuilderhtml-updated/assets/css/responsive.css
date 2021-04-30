@@ -1,0 +1,25 @@
+@media (max-width: 1400px) {
+  .first .events h2 {
+    font: normal normal bold 13px/0px Segoe UI;
+    width: 167px;
+  }
+  .first .width {
+    width: 100%;
+    height: 40px;
+  }
+  .first .events li {
+    width: 211%;
+  }
+  .first .events span {
+    width: 76%;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .first .events span {
+    width: 60%;
+  }
+}

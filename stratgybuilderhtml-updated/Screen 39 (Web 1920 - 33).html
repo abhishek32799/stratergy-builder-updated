@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stratergy Builder</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/left-nav.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+    </head>
+
+<body class="web-1920-33 admin-30">
+
+  <nav class="navbar navbar-expand-md bg-white ">
+    <a class="navbar-brand " href="#"><img src="assets/img/admin.png" width="30px"> Admin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">User Maintenance</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="#">Risk Configuration</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Risk Monitoring</a>
+        </li>    
+      </ul>
+      
+    </div>  
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link mt-1" href="#"><img src="assets/img/bell-icon.png" width="35px"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text_33" href="#"><img src="assets/img/avatar-icon.png" width="40px"> Betty Sherman</a>
+        </li>    
+      </ul>
+      
+    </div>  
+  </nav>
+
+
+<!-------------------------------------- content --------------------------------- -->
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1">
+         <!------------------------------------------- sidebar------------------------------------- -->
+        <div class="listing">
+        <ul class="list-group">
+          <li class="list-group-item mb-25">
+            <div class="left_nav">
+              <img src="assets/img/statergy-icon.png" alt="" ><br>
+              <span class="active">Strategy <br>Builder</span>
+            </div>
+          </li>
+          <li class="list-group-item mb-25">
+            <div class="left_nav">
+              <img src="assets/img/analytics-icon.png" alt=""><br>
+                  <span class="active">Analytics</span>
+            </div>
+            
+          </li>
+          <li class="list-group-item mb-25">
+            <div class="left_nav">
+              <img src="assets/img/paper-plane-icon.png" alt="" ><br>
+              <span class="disabled">Paper<br>Trading</span>
+    
+            </div>
+           
+          </li>
+          <li class="list-group-item">
+            <div class="left_nav">
+              <img src="assets/img/vedio-icon.png" alt="" srcset=""><br>
+                  <span class="disabled">Live<br>Trading</span>
+            </div>
+            
+          </li>
+          <li class="list-group-item">
+            <div class="left_nav">
+              <img src="assets/img/vedio-icon.png" alt="" srcset=""><br>
+                  <span class="disabled">Manage<br>Risk</span>
+            </div>
+            
+          </li>
+          <li class="list-group-item">
+            <div class="left_nav">
+              <img src="assets/img/vedio-icon.png" alt="" srcset=""><br>
+                  <span class="disabled">Manage<br>Alerts</span>
+            </div>
+            
+          </li>
+        </ul>
+      </div>
+      <!------------------------------------------- sidebar------------------------------------- -->
+
+      </div>
+    <div class="col-lg-11">
+      <div class="dashboard">
+        <ul>
+          <li class="active"><span>User Dashboard</span></li>
+          <li>Teams Dashboard</li>
+          <li>Roles Dashboard</li>
+        </ul>
+        <div class="col-12">
+          <div class="d-flex justify-content-between">
+            <button class="creates">+ Create</button>
+          <div class="search">
+            <label>Search</label>
+            <input type="text">
+            <div class="icon">
+              <i class="fa fa-search"></i>
+            </div>
+            <div class="closes">
+              <i class="fa fa-close"></i>
+            </div>
+          </div>
+        </div>
+          
+        </div>
+        <div class="col-12">
+          <div class="table-responsive my-3">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>SNo.</th>
+                  <th>User ID</th>
+                  <th>User Name</th>
+                  <th>Team</th>
+                  <th>Role</th>
+                  <th>Email</th>
+                  <th>Status</th>
+                  <th>Last Modify</th>
+                  <th>Actions</th>
+                  <th><img src="assets/img/file.png" width="45px"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>James.Smith</td>
+                  <td>Advanced Traders</td>
+                  <td>Pro</td>
+                  <td>james.smith@esteeadvisors.com</td>
+                  <td><span class="action">Actions</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>James.Smith</td>
+                  <td>Advanced Traders</td>
+                  <td>Advanced </td>
+                  <td>michael.smith@esteeadvisors.com</td>
+                  <td><span class="action">Actions</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>3</td>
+                  <td>James.Smith</td>
+                  <td>Advanced Traders</td>
+                  <td>Advanced</td>
+                  <td>robert.smith@esteeadvisors.com</td>
+                  <td><span class="action">Actions</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>4</td>
+                  <td>James.Smith</td>
+                  <td>Advanced Traders</td>
+                  <td>Pro</td>
+                  <td>maria.garcia@esteeadvisors.com</td>
+                  <td><span class="block">Blocked</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Un-Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>David.Smith</td>
+                  <td>Intermediate Traders</td>
+                  <td>Basic</td>
+                  <td>david.smith@esteeadvisors.com</td>
+                  <td><span class="block">Blocked</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Un-Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>6</td>
+                  <td>Maria.Rodriguez</td>
+                  <td>Intermediate Traders</td>
+                  <td>Basic</td>
+                  <td>maria.rodriguez@esteeadvisors.com</td>
+                  <td><span class="action">Actions</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>7</td>
+                  <td>Mary.Smith</td>
+                  <td>Intermediate Traders</td>
+                  <td>Basic</td>
+                  <td>mary.smith@esteeadvisors.com</td>
+                  <td><span class="action">Actions</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>Maria.Hernandez</td>
+                  <td>Beginner Traders</td>
+                  <td>Basic</td>
+                  <td>maria.hernandez@esteeadvisors.com</td>
+                  <td><span class="block">Blocked</span></td>
+                  <td>19 Nov 2020 2:58 PM</td>
+                  <td>
+                    <div class="buttons">
+                      <button type="button" class="btn-primary">Edit</button>
+                      <button type="button" class="btn-primary">Un-Block</button>
+                      <button type="button" class="btn-primary">Delete</button>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                
+              </tbody>
+              
+            </table>
+            <div class="pagination justify-content-between">
+              <div class="enteries">
+                <p>Showing 1 to 8 of 30 enteries</p>
+              </div>
+              <div class="peview text-right d-flex align-items-center">
+                <p>Previous</p>
+                <div class="select mx-3">
+                  <select class="select-style" name="" id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                  </select>
+                </div>
+                
+                <p>Next</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>                                                                                                             
+      </div>
+    </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+
+
+<!-------------------------------------- content --------------------------------- -->
+
+<!------------------------------------- popup ----------------------------- -->
+<div class="popup">
+  <div class="create_2 ">
+    <form>
+      <h4>Create User</h4>
+      <div class="group">
+        <label>User Name :</label>
+        <input type="text" value="Maria.Martinez">
+      </div>
+      <div class="group">
+        <label>Password :</label>
+        <input type="text" value="************">
+      </div>
+      <div class="group">
+        <label>Confirm Password:</label>
+        <input type="text" value="************">
+      </div>
+      <div class="group">
+        <label>First Name:</label>
+        <input type="text" value="Maria">
+      </div>
+      <div class="group">
+        <label>Last Name:</label>
+        <input type="text" value="Martinez">
+      </div>
+      <div class="group">
+        <label>Email:</label>
+        <input type="text" value="maria.martinez@esteeadvisors.com">
+      </div>
+      <div class="group">
+        <label>Role:</label>
+        <div class="select ">
+          <select name="" id="">
+            <option value="">Select</option>
+            <option value="">Select</option>
+            <option value="">Select</option>
+            <option value="">Select</option>
+          </select>
+        </div>
+      </div>
+      <div class="group">
+        <label>Clearing Account:</label>
+        <div class="select ">
+          <div id="list1" class="dropdown-check-list" tabindex="100">
+            <span class="anchor">Select </span>
+            <ul class="items">
+              <li><input type="checkbox" /><span>NSE - Acc1</span></li>
+              <li><input type="checkbox" /><span>NSE - Acc2</span></li>
+            </ul>
+          </div>
+        </div>
+        <input type="text" class="custom-input">
+      </div>
+      <div class="group">
+        <label>Trading Accounts:</label>
+        <div class="select ">
+          <div id="list2" class="dropdown-check-list2" tabindex="200">
+            <span class="anchor2">Select </span>
+            <ul class="items2">
+              <li><input type="checkbox" /><span>NSE - Acc1</span></li>
+              <li><input type="checkbox" /><span>NSE - Acc2</span></li>
+            </ul>
+          </div>
+        </div>
+        <input type="text" class="custom-input">
+      </div>
+      <div class="buttons text-center mt-3">
+        <button>Create</button>
+        <button>Close</button>
+      </div>
+      
+    </form>
+  </div>
+</div>
+
+<!------------------------------------- popup ----------------------------- --> 
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/custom.js"></script>
+  <script>
+    var checkList = document.getElementById('list1');
+checkList.getElementsByClassName('anchor')[0].onclick = function(evt) {
+  if (checkList.classList.contains('visible'))
+    checkList.classList.remove('visible');
+  else
+    checkList.classList.add('visible');
+}
+    
+  </script>
+  <script>
+    var checkLists = document.getElementById('list2');
+checkLists.getElementsByClassName('anchor2')[0].onclick = function(evt) {
+  if (checkLists.classList.contains('visible2'))
+    checkLists.classList.remove('visible2');
+  else
+    checkLists.classList.add('visible2');
+}
+  </script>
+  <!-- <script>
+    var expanded = false;
+
+function showCheckboxes() {
+var checkboxes = document.getElementById("checkboxes");
+if (!expanded) {
+checkboxes.style.display = "block";
+expanded = true;
+} else {
+checkboxes.style.display = "none";
+expanded = false;
+}
+}
+</script> -->
+</body>
+</html>
+
+

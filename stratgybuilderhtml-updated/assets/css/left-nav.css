@@ -1,0 +1,132 @@
+.list-group-item {
+  justify-content: center;
+  display: flex;
+  border: none;
+  background: none;
+  margin-top: 30px;
+}
+.list-group-item span {
+  font: normal normal bold 12px/16px Segoe UI;
+  letter-spacing: 0px;
+  color: #0412d1;
+}
+.left_nav {
+  text-align: center;
+  line-height: 0px;
+}
+.left_nav img {
+  width: 40px;
+}
+.nav-link:hover {
+  color: #0078d7;
+}
+.active a.nav-link {
+  color: #0078d7;
+  text-decoration: underline;
+}
+.navbar-toggler {
+  background-color: #664141bd;
+  border: 1px solid #6c757d;
+}
+
+.side_nav .list-group {
+  width: 100px;
+  padding-top: 106px;
+  padding-bottom: 134px;
+}
+.side_nav .listing {
+  width: 100px;
+  background: #f8f7f7 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000004d;
+}
+.side_nav .mb-25 {
+  margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: #929292;
+  text-decoration: none;
+  position: relative;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-family: "Sitka Reg";
+  font-size: 20px;
+}
+/*======================================= thirty page ==================================== */
+.admin-30 .nav-pink {
+  background: #8664c3 !important;
+  margin-left: 70px;
+}
+.admin-30 .listing {
+  /* width: 62px;
+  background: #21d8f5;
+  position: absolute;
+  top: 0; */
+  position: absolute;
+  left: 11px;
+  width: 22px;
+}
+.admin-30 .list-group {
+  padding-bottom: 150px;
+}
+.admin-30 .navbar-brand {
+  font: italic normal bold 48px/64px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.admin-30 .navbar-expand-md .navbar-nav .nav-link {
+  font: normal normal bold 25px/20px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.admin-30 .navbar-expand-md .navbar-nav .nav-link {
+  padding: 0 10px;
+}
+.admin-30 .text {
+  font: normal normal normal 18px/20px Segoe UI !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+}
+.admin-30 .active a.nav-link {
+  color: #ffff !important;
+  text-decoration: underline;
+}
+.admin-30 .ml-7 {
+  margin-left: 4rem !important;
+}
+/*======================================= Thirty page ==================================== */
+
+/*==================================== web 1920 33================================================ */
+.web-1920-33 .nav-pink {
+  margin: 0;
+}
+.web-1920-33 .navbar-brand {
+  color: #000;
+  font: normal normal normal 28px/41px Sitka Heading;
+  margin-right: 123px;
+  margin-left: 20px;
+}
+.web-1920-33 .navbar-expand-md .navbar-nav .nav-link {
+  font: normal normal bold 20px/20px Segoe UI;
+}
+.web-1920-33 section {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #f9f6f6;
+}
+.web-1920-33 .list-group {
+  padding-top: 106px;
+}
+.web-1920-33 .active a.nav-link {
+  color: #7671ff !important;
+  text-decoration: none;
+}
+/*==================================== web 1920 33================================================ */
+
+/*==================================== web 1920 33================================================ */
+.screen_46 .navbar-expand-md .navbar-nav .nav-link {
+  padding: 0 20px;
+}
+/*==================================== web 1920 33================================================ */
